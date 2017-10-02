@@ -1,0 +1,39 @@
+body
+{
+	font-family: sans-serif;
+}
+
+p.chaverde
+{
+	color: green;
+}
+
+p.framboesa
+{
+	color: blue;
+}
+
+p.felicidade
+{
+	color: purple;
+}
+
+p
+{
+	color: maroon;	
+}
+
+h1,h2
+{	
+	color: gray;	   		
+}
+
+h1
+{
+	border-bottom: 1px solid black;
+}
+
+em
+{
+	font-family: serif;
+}
