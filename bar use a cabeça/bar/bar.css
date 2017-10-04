@@ -1,6 +1,13 @@
 body
 {
-	font-family: sans-serif;
+	font-family: sans-serif, helvetica;
+	background-color: #fdfdfd;
+	color: #042945;
+}
+
+p
+{
+	color: #236494;
 }
 
 p.chaverde
@@ -18,16 +25,6 @@ p.felicidade
 	color: purple;
 }
 
-p
-{
-	color: maroon;	
-}
-
-h1,h2
-{	
-	color: gray;	   		
-}
-
 h1
 {
 	border-bottom: 1px solid black;
@@ -35,5 +32,5 @@ h1
 
 em
 {
-	font-family: serif;
+	font-family: serif;	
 }
