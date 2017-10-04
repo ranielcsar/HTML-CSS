@@ -13,9 +13,10 @@ body
 
 #cabeçalho h1
 {
-	color: #5e05ec;	
+	color: #796298;	
 	padding-top: 15px;
-	padding-left: 30px;
+	padding-left: 30px;	
+	font-style: italic;
 }
 
 #cabeçalho header nav ul
@@ -25,10 +26,22 @@ body
 	padding-bottom: 25px;	
 }
 
-header nav ul li
+#cabeçalho header nav ul li
 {	
 	display: inline-block;
 	margin-right: 20px;	
+	text-decoration: none;			
+}
+
+#cabeçalho header nav ul li a
+{	
+	text-decoration: none;
+	color: #a875fb;		
+}
+
+#cabeçalho header nav ul li a:hover
+{	
+	color: #d6c1f9;		
 }
 /*
 section h2, article h2
