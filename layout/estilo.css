@@ -3,9 +3,50 @@ body
 	font-family: helvetica,sans-serif,verdana;
 }
 
-#cont
+#cabeçalho
 {
-	width: 960px;
-	margin: auto;
-	background-color: #f6f6f6;
+	background-image: url(123.png);
+	margin-top: -30px;
+	margin-right: -20px;
+	margin-left: -10px; 
 }
+
+#cabeçalho h1
+{
+	color: #5e05ec;	
+	padding-top: 15px;
+	padding-left: 30px;
+}
+
+#cabeçalho header nav ul
+{
+	list-style: none;
+	padding-left: 860px;
+	padding-bottom: 25px;	
+}
+
+header nav ul li
+{	
+	display: inline-block;
+	margin-right: 20px;	
+}
+/*
+section h2, article h2
+{
+	padding: 1px 20px;
+}
+
+section p, article p
+{
+	padding-left: 30px;
+}
+
+aside ul li
+{
+	list-style: none;
+}
+
+footer
+{
+	padding: 10px 20px;
+}*/
