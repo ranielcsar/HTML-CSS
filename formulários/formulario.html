@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+
+<html>
+	
+	<head>
+		<title>Formulários</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="estilo.css"/>
+	</head>
+
+	<body>
+		<form action="" method="get"> <!-- action é usado para enviar os dados para outro lugar. por exemplo: guardaDados.php -->
+			<label for="nome"> Nome: </label>
+			<input id="nome" type="text" placeholder="Digite seu nome" name="nome"/> <!-- caixa de texto para entrada de dados -->
+			<label for="enquete"> Você gostou desse site? </label>
+			<input id="enquete" type="radio" name="opcao" value="sim"/>Sim <!-- tipo "radio" é para escoher apenas uma opção -->
+			<input id="enquete" type="radio" name="opcao" value="nao"/>Não
+			<label> Escolha as que você gosta: </label>
+			<input type="checkbox" name="html"/>HTML
+			<input type="checkbox" name="js"/>JavaScript
+			<input type="checkbox" name="css"/>CSS
+			<label>Deixe um comentário sobre nós! ;)</label>
+			<textarea name="msg" placeholder="Digite seu comentário! :D"></textarea>
+			<input type="submit" value="Enviar"/> <!-- botão de enviar -->			
+		</form>
+	</body>
+
+</html>

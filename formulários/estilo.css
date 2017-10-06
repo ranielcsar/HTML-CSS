@@ -1,0 +1,21 @@
+body
+{
+	font-family: sans-serif,verdana;
+}
+
+label, input[type="submit"], textarea
+{
+	display: block;
+	margin-top: 10px;
+}
+
+textarea
+{
+	width: 300px;
+	height: 100px;
+}
+
+input[type="checkbox"]
+{
+
+}
