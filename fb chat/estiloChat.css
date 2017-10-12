@@ -1,0 +1,53 @@
+body
+{
+	font-family: sans-serif, verdana;
+}
+
+#chat
+{
+	width: 263px; /* largura */
+	height: 335px; /* altura */
+	background-color: #f4f4f4;
+}
+
+#cabeçalho
+{
+	background-color: #7b9cff;
+	width: 263px;
+	height: 27px;
+}
+
+#cabeçalho h6
+{
+	color: white;
+	padding-top: 5px;
+}
+
+#itens ul
+{
+	height: 22px;
+	width: 120px;
+	float: right;
+	padding-bottom: 20px;
+	margin-top: -23px;		
+}
+
+#itens ul li
+{
+	list-style: none;
+	display: inline;
+	margin-right: 3px;				
+}
+
+#input textarea
+{
+	width: 257px;
+	height: 30px;
+	margin-top: 232px;
+}
+
+#input textarea[placeholder]
+{
+	font-size: 10px;
+	font-family: verdana;
+}
