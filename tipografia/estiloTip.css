@@ -1,0 +1,29 @@
+body
+{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1
+{
+	color: #445182;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	text-shadow: 2px 1px 6px #666666;
+	margin: auto;
+	text-align: center;
+}
+
+p
+{
+	text-indent: 50px;
+	text-align: justify;	
+	width: 650px;
+}
+
+#topo
+{
+	width: 620px;
+	height: 40px;	
+	border-radius: 10px;
+	border: dotted 2px; 
+}
