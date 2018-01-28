@@ -68,7 +68,7 @@
 	max-width: 1200px;
 	height: auto;
 	margin: 0 auto;
-    position: relative;
+    position: relative;		
 }
 
 ::selection {color:#ffffff;background:#353434;}
@@ -214,8 +214,21 @@ header ul.social li a.gplus{
     background: rgba(255, 255, 255, 0.6);
     margin-bottom: 2px;
     text-transform: uppercase;
-    z-index: 8888;
+    z-index: 8888;		
 }
+
+	.raul
+	{
+		display: inline-block;
+		color: white;
+		font-family: "avantgardelt-extralight", arial;
+		font-weight: lighter;
+		font-size: 35px;
+		padding-left: 20%;		
+		margin-bottom: 2px;
+		text-transform: uppercase;
+		z-index: 8888;		
+	}
 
 
 
@@ -565,7 +578,7 @@ a{
         display: block;
         text-align: center;
         margin: 40px auto;
-    }
+    }	
 }
 
 

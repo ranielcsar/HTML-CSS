@@ -15,22 +15,22 @@
 <body>
 
 	<header>
-		<div class="wrapper">
+		<div class="wrapper" id="topo">
 			<img src="img/logo.png" alt="Crafty" class="logo" width="145">
 			<a href="#" class="menu_icon" id="menu_icon"></a>
 			<nav id="nav_menu">
 				<ul>
-					<li><a href="#">Sobre mim</a></li>
-					<li><a href="#">O que faço?</a></li>
+					<li><a href="#sobremim">Sobre mim</a></li>
+					<li><a href="#sobre">O que faço?</a></li>
 					<li><a target="_blank" href="https://github.com/ranielcsar">Github</a></li>
-					<li><a href="#">Contato</a></li>
+					<li><a href="#contato">Contato</a></li>
 				</ul>
 			</nav>
 
 			<ul class="social">
 				<li><a target="_blank" class="fb" href="https://www.facebook.com/ranielcsar"></a></li>
 				<li><a target="_blank" class="twitter" href="https://twitter.com/ranielcsar"></a></li>
-				<li><a target="_blank" class="gplus" href="https://plus.google.com/u/0/102731763105309267154"></a></li>
+				<li><a target="_blank" class="gplus" href="http://ranoob.tumblr.com/"></a></li>
 			</ul>
 		</div>
 	</header><!--  End Header  -->
@@ -39,22 +39,23 @@
 			<div class="wrapper">
 				<div class="caption">
 					<p>Eu sou eu</p><br>
-					<p>E nicuri é o diabo</p>
+					<p>E nicuri é o diabo</p><br /> 
+                     <h2 class="raul">(Raul Seixas)</h2>                   
 				</div>
+                               
 			</div>
 	</section><!--  End Billboard  -->
 
-	<section class="features">
+	<section class="features" id="sobremim">
 
 		<div class="wrapper">
 				<div class="feature">
 					<div class="ficon">
-						<img src="img/icon1.png" alt="">
+						<div class="icone"> <img src="img/icon1.png" alt=""> </div>
 					</div>
 					<div class="details_exp">
-						<h3>Excepteur sint.</h3>
-						<p>Coccaecat cupidatat aliqu proident sunt in culpa qui officia deserunt mollit anim.</p>
-						<a href="#">more details<span>→</span></a>
+						<h3>Jogos</h3>
+						<p>Viciado em vários tipos de jogos! Principalmente RPGs que contêm puzzles.</p>				
 					</div>
 				</div>
 				<div class="feature">
@@ -62,9 +63,8 @@
 						<img src="img/icon2.png" alt="">
 					</div>
 					<div class="details_exp">
-						<h3>Excepteur sint.</h3>
-						<p>Coccaecat cupidatat aliqu proident sunt in culpa qui officia deserunt mollit anim.</p>
-						<a href="#">more details<span>→</span></a>
+						<h3>Música</h3>
+						<p>Amo tocar violão, me relaxa. Gosto de muitos estilos musicais.</p>
 					</div>
 				</div>
 				<div class="feature">
@@ -72,9 +72,8 @@
 						<img src="img/icon3.png" alt="">
 					</div>
 					<div class="details_exp">
-						<h3>Excepteur sint.</h3>
-						<p>Coccaecat cupidatat aliqu proident sunt in culpa qui officia deserunt mollit anim.</p>
-						<a href="#">more details<span>→</span></a>
+						<h3>Programação</h3>
+						<p>Padawan em C, HTML e CSS! Até o momento tô gostando MUITO de programar, é uma maravilha! :D</p>						
 					</div>
 				</div>
 				<div class="feature">
@@ -82,9 +81,8 @@
 						<img src="img/icon4.png" alt="">
 					</div>
 					<div class="details_exp">
-						<h3>Excepteur sint.</h3>
-						<p>Coccaecat cupidatat aliqu proident sunt in culpa qui officia deserunt mollit anim.</p>
-						<a href="#">more details<span>→</span></a>
+						<h3>Cozinha</h3>
+						<p>Não sou nenhum profissional, mas gosto de cozinhar. Sempre tentando coisas novas!</p>
 					</div>
 				</div>
 				<div class="feature">
@@ -92,9 +90,8 @@
 						<img src="img/icon5.png" alt="">
 					</div>
 					<div class="details_exp">
-						<h3>Excepteur sint.</h3>
-						<p>Coccaecat cupidatat aliqu proident sunt in culpa qui officia deserunt mollit anim.</p>
-						<a href="#">more details<span>→</span></a>
+						<h3>Café</h3>
+						<p>Café sempre! Desde cedo que bebo café. Ainda quero provar vários sabores dessa coisa especial.</p>
 					</div>
 				</div>				
 				<div class="feature">
@@ -102,16 +99,15 @@
 						<img src="img/icon6.png" alt="">
 					</div>
 					<div class="details_exp">
-						<h3>Excepteur sint.</h3>
-						<p>Coccaecat cupidatat aliqu proident sunt in culpa qui officia deserunt mollit anim.</p>
-						<a href="#">more details<span>→</span></a>
+						<h3>Eu</h3>
+						<p>Sou um livro aberto! Sugestões, críticas, novos conhecimentos. Qualquer coisa que adicione algo em minha vida, eu guardo.</p>
 					</div>
 				</div>
 			</div>
 
 	</section><!--  End Features  -->
 
-	<section class="testimonials wrapper">
+	<section class="testimonials wrapper" id="sobre">
 
 		<span class="sep_line sep_top">
 		</span>
@@ -122,11 +118,11 @@
 				<p>Sempre tive a curiosidade em saber como os jogos eram desenvolvidos. Como os programas que usamos no dia a dia eram desenvolvidos. E, quando descobri, fiquei impactado com os codes!</p>
 				<p class="author">Raniel César - Padawan em programação</p>
 			</div>
-			<!--<div class="t">
-				<p>Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu pariatur.</p>
-				<p class="author">Jane Eva - SEO Expert</p>
-			</div>
 			<div class="t">
+				<p>Aprendiz em programação! Comecei a procurar na internet por conta própria, porém, sem muitos resultados. Entrei na faculdade na turma de 2017.1. Comecei a programar MESMO e to amando. Programo apenas em C no momento, mas espero evoluir mais e mais para aprender novas linguagens.</p>
+				<p class="author">Raniel César - Padawan em programação</p>
+			</div>
+			<!--<div class="t">
 				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu pariatur, Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				<p class="author">John David - Developer</p>-->
 			</div>
@@ -144,21 +140,21 @@
 		<div class="info_details">
 			<h3>"Codar" é vida!</h3>
 			<p>"Codar", ou seja, escrever codes. Programar. Fazer o que há de melhor na vida! Programar é maravilhoso! Venha para o lado programador da força.</p>
-			<a href="#">Mais detalhes <span>→</span></a>
 		</div>
 
 	</section><!--  End Info  -->
 
-	<section class="cta">
-		<h3>Acorde e vamos codar!</h3>
-		<p>printf("Bora vê?! \n");</p>
-		<a href="#" class="cta_btn">Bora!</a>
+	<section class="cta" id="contato">
+		<h3>Contato</h3>
+		<p>Email: whyfck@gmail.com<br>
+		Telefone, Whatsapp e Telegram: (74) 99105-3134</p>
+		<a href="#topo" class="cta_btn">Voltar ao topo</a>
 		<span class="cta_sep"></span>
 	</section><!--  End cta  -->
 
 	<footer>
 		<img src="img/logo_footer.png" alt="Crafty">
-		<p class="rights">Copyright © crafty - All rights reserved, Find more free templates at <a href="http://pixelhint.com">Pixelhint.com</a></p>
+		<p class="rights">© Raniel César (ranoob) 2017 - Design: Pixelhint:  <a href="http://pixelhint.com">Pixelhint.com</a></p>
 	</footer><!--  End Footer  -->
 
 </body>

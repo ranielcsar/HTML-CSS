@@ -6,8 +6,8 @@ $(document).ready(function(){
             infinite: false,
             responsive : true,
             scroll : {
-                items : 1,
-                fx : "fade"
+                items : 0,
+                fx : "fade"                
             },
             pagination: {
 				container:	"#t_navigation",

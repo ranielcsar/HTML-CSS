@@ -231,6 +231,11 @@ header ul.social li a.gplus{
     margin-right: 40px;
 }
 
+.icone {
+    background-color: #65bf95;
+    
+}
+
 .feature .details_exp{
     display: block;
     width: 240px;
@@ -272,9 +277,6 @@ header ul.social li a.gplus{
     font-family: arial;
     margin-left: 10px;
 }
-
-
-
 
 
 /*  testimonials  */
