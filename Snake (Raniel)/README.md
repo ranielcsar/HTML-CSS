@@ -7,3 +7,6 @@
 
 
 #### Agredeço ao Filipe Alves ([@alvesfilipe](https://github.com/alvesfilipe)) pelo tutorial bem elaborado.
+
+
+- Caso queira jogar, [cliquei aqui](https://codepen.io/ranielcsar/pen/aqzQNe).
