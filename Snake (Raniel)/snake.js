@@ -96,6 +96,7 @@ function Snake()
                //x   y
    this.body= [[10, 10], [10, 11], [10, 12]]; //vetor de vetores
    this.color= "#66936d";
+   this.colorLine= "#313131";   
    this.direcao= [0, -1];
 
    this.update= function()
@@ -130,6 +131,9 @@ function Snake()
    this.draw= function()
    {
       contexto.fillStyle= this.color;
+      contexto.lineWidth= 2;
+      contexto.strokeStyle= this.colorLine;
+      contexto.stroke();   
 
       for (var i=0; i<this.body.length; i++)
       {
