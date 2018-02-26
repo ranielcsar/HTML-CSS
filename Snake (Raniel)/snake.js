@@ -131,13 +131,12 @@ function Snake()
    this.draw= function()
    {
       contexto.fillStyle= this.color;
-      contexto.lineWidth= 2;
-      contexto.strokeStyle= this.colorLine;
-      contexto.stroke();   
+      contexto.strokeStyle= this.colorLine;        
 
       for (var i=0; i<this.body.length; i++)
       {
          contexto.fillRect(this.body[i][0] * escala, this.body[i][1] * escala, escala, escala); //pega coord. em x/y para snake
+         contexto.strokeRect(this.body[i][0] * escala, this.body[i][1] * escala, escala, escala);
       }
    }
 }
