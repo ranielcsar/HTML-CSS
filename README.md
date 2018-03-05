@@ -1,2 +1,3 @@
-# HTML-CSS
-Aprendendo HTML e CSS ;)
+## HTML-CSS
+
+  - Aprendendo HTML, CSS e JS ;)
