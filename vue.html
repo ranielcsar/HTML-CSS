@@ -1,0 +1,39 @@
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+<div id = "app">
+  <p>{{ texto }}</p>
+</div>
+
+<div id = "app-2">
+  <span v-bind:title = "mensagem"> Passe o mouse em mim e veja a dica interligada dinamicamente! </span>
+</div>
+
+<div id = "app-3">
+  <p v-if = "visto">
+    Agora você me vê!
+  </p>
+</div>
+
+<div id = "app-4">
+  <ol>
+    <li v-for = "tudo in todos">
+      {{ tudo.texto }}
+    </li>
+  </ol>
+</div>
+
+<div id = "app-5">
+  <p>
+   {{ mensagem }} <br>
+   <button v-on:click = "inverterMensagem">
+     Inverter mensagem!
+   </button>
+  </p>  
+</div>
+
+<div id = "app-6">
+  <p>
+    {{ mensagem }} <br>
+    <input v-model = "mensagem">
+  </p>
+</div>
