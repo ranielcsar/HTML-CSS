@@ -8,15 +8,13 @@
 
 ### Atualização 2019:
 
-- Mais funcionalidades:
-
+- O que foi mudado?
   - Fruta adicionada
   - Não morrer ao bater na parede
   - Comer fruta e crescer
-  - Mudança de cores
+  - Cores
   
 - O que falta?
-
   - Morrer quando bater em si mesmo
   - Pontuação
   - Game over
