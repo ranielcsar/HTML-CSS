@@ -1,0 +1,70 @@
+.perfil {
+  width: var(--largura);
+  background: var(--branco);
+  color: var(--preto);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  margin: 3em auto;  
+  padding: 10px;
+}
+
+.perfil-foto {
+  margin: 1.2em 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+}
+
+.foto {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+.foto-footer {
+  text-align: center;
+}
+
+.foto-footer h2 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.foto-footer h4 {
+  opacity: 0.65;
+}
+
+.perfil-descricao {
+  flex: 1.65;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+}
+
+.perfil-descricao > h4 {
+  margin-bottom: 1.3rem;  
+  color: var(--primaria);
+  font-size: 1.15rem;
+}
+
+.perfil-descricao > p {
+  line-height: 1.5;
+  font-size: var(--p);
+}
+
+@media (min-width: 768px) {
+  .perfil {
+     flex-direction: row;
+     text-align: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  .perfil {
+     border-radius: 6px;
+  }
+}

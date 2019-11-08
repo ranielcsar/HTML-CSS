@@ -1,0 +1,47 @@
+@import url('css/header/header.css');
+@import url('css/perfil.css');
+@import url('css/main.css');
+@import url('css/cartao.css');
+@import url('css/footer.css');
+
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+:root {
+   --primaria:      #26C485;
+   --preto:         #282C2F;
+   --preto-claro:   #323639;
+   --preto-claro-2: #888;
+   --branco:        #F5F2EE;
+   --cinza:         #D3D3D3;
+   --vermelho:      #832232;
+
+   --largura: 100%;
+   --p: 1.092rem;
+}
+
+html {
+   font: 16px sans-serif;
+   background-image: url('img/catpaw-pattern.png');  
+   background-color: var(--vermelho);
+   background-repeat: repeat;
+   background-blend-mode: overlay;
+
+   overflow-x: hidden;
+   scroll-behavior: smooth;
+}
+
+a      { text-decoration: none; }
+ul, li { list-style: none; }
+img    { max-width: 100%; }
+
+@media (min-width: 1024px) {
+   :root {
+      --largura: 87%;
+   }
+}

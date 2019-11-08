@@ -1,0 +1,32 @@
+.principal {
+   width: var(--largura);
+   background: var(--branco);
+   color: var(--preto);
+   display: flex;
+
+   flex-wrap: wrap;
+
+   padding: 1.25rem;
+
+   margin-top: 8.4375rem;
+}
+
+@media (min-width: 1024px) {
+   .principal {
+      margin: 0 auto;
+      margin-top: 8.75rem;
+      border-radius: 6px;
+   }
+}
+
+@media (min-width: 1360px) {
+   .principal {
+      margin-top: 14.1375rem;
+   }
+}
+
+@media (min-width: 1440px) {
+   .principal {
+      margin-top: 12.1375rem;
+   }
+}

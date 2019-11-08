@@ -1,0 +1,24 @@
+.menu {
+   display: flex;
+   flex: 1;
+}
+
+.menu-link {
+   font-size: 1.12em;
+   margin: 0 1em;
+   color: var(--preto);
+
+   padding-bottom: 1.125rem;
+}
+
+.menu-link:hover {
+   position: relative;
+   color: var(--primaria);
+   border-bottom: 2px solid var(--primaria);
+}
+
+@media (max-width: 768px) { 
+   .menu {
+      display: none;
+   }
+}
