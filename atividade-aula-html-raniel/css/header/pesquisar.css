@@ -76,29 +76,40 @@
 
 @media (min-width: 768px) {
    .barra-pesquisar {
+      flex: 2.5;
+   }
+
+   .pesquisar > input[type="search"]:focus,
+   .pesquisar > input[type="search"]:valid {
+      width: 20rem;
+   }
+}
+
+@media (min-width: 1024px) {
+   .barra-pesquisar {
       flex: 1.6;
    }
 
    .pesquisar > input[type="search"]:focus,
    .pesquisar > input[type="search"]:valid {
-      width: 18rem;
+      width: 19rem;
    }
 }
 
 @media (min-width: 1360px) {
    .barra-pesquisar {
-      flex: 2;
+      flex: 3;
    }
 
    .pesquisar > input[type="search"]:focus,
    .pesquisar > input[type="search"]:valid {
-      width: 21rem;
+      width: 23rem;
    }
 }
 
 @media (min-width: 1440px) {
    .pesquisar > input[type="search"]:focus,
    .pesquisar > input[type="search"]:valid {
-      width: 24rem;
+      width: 27rem;
    }
 }
