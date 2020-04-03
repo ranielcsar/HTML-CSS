@@ -1,0 +1,35 @@
+@import url(reset.css);
+
+html { font: 16px verdana, sans-serif; }
+
+.app-layout {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: 100vh;
+   grid-template-areas:
+      "search replies messages tweets";
+
+   color: #F7F7F7;
+   font-size: 1.5rem;
+   text-align: center;
+}
+
+.tweets {
+   background-color: #935341;
+   grid-area: tweets;
+}
+
+.replies {
+   background-color: #B55242;
+   grid-area: replies;
+}
+
+.search {
+   background-color: #E25D42;
+   grid-area: search;
+}
+
+.messages {
+   background-color: #55352A;
+   grid-area: messages;
+}

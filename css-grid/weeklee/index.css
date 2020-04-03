@@ -1,0 +1,29 @@
+@import url(css/reset.css);
+@import url(css/main.css);
+
+:root {
+   --bg: #EAE9E5;
+   --preto: #2C2C2C;
+   --realce: #FF225B;
+}
+
+html { font-size: 16px; }
+
+p { line-height: 1.4; }
+
+img {
+   max-width: 100%;
+}
+
+/* FLEX */
+.flex {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+}
+
+.flex-c {
+   display: flex;
+   flex-flow: column wrap;
+   justify-content: center;
+}

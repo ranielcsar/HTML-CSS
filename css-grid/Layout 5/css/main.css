@@ -1,0 +1,26 @@
+@import url(reset.css);
+
+html { font: 20px verdana, sans-serif; }
+
+body {
+   background-color: #F4F4F9;
+   padding: 50px;
+}
+
+.item {
+   display: flex;
+
+   justify-content: center;
+   align-items: center;
+   border: 3px solid #333;
+   border-radius: 3px;
+   font-size: 2em;
+   font-weight: bold;
+   background-color: #8cba51;
+}
+
+.container {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 30px;
+}

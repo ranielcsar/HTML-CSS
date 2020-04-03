@@ -1,0 +1,44 @@
+@import url(reset.css);
+
+html { font: 20px verdana, sans-serif; }
+
+body {
+   background-color: #F4F4F9;
+   padding: 50px;
+}
+
+.item {
+   display: flex;
+
+   justify-content: center;
+   align-items: center;
+   border: 3px solid #333;
+   border-radius: 3px;
+   font-size: 2em;
+   font-weight: bold;
+   background-color: #8cba51;
+}
+
+.container {
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   grid-template-rows: repeat(5, 1fr);
+   grid-gap: 2rem;
+   grid-auto-flow: dense;
+}
+
+
+.item:nth-child(3n) {
+   grid-column: span 4;
+   background-color: #deff8b;
+}
+
+.item:nth-child(5n) {
+   grid-column: span 3;
+   background-color: #88e1f2;
+}
+
+.item:nth-child(7n) {
+   grid-column: span 2;
+   background-color: #ff5d6c;
+}
