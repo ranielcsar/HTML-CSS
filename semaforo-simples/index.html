@@ -50,18 +50,18 @@ body {
 const removerClasse = (el, classe) => el.classList.remove(classe); 
 const adicionarClasse = (el, classe) => el.classList.add(classe); 
    
-const mudarSemaforo = (atual, anterior) => {   
+const mudarSemaforo = (anterior, atual) => {   
+   const semaforoAnterior = document.querySelector(`#${anterior}`);
    const semaforoAtual = document.querySelector(`#${atual}`);
-   const semaforoAnterior = document.querySelector(`#${anterior}`)
 
    removerClasse(semaforoAnterior, anterior);
    adicionarClasse(semaforoAtual, atual);
 }
 
 const init = () => {
-   setTimeout(() => mudarSemaforo('verde', 'vermelho'), 2000);
-   setTimeout(() => mudarSemaforo('amarelo', 'verde'), 4000);
-   setTimeout(() => mudarSemaforo('vermelho', 'amarelo'), 6000);
+   setTimeout(() => mudarSemaforo('vermelho', 'verde'), 2000);
+   setTimeout(() => mudarSemaforo('verde', 'amarelo'), 4000);
+   setTimeout(() => mudarSemaforo('amarelo', 'vermelho'), 6000);
 
   setTimeout(() => init(), 7000);
 }
