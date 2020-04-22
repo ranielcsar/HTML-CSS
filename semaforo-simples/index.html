@@ -1,0 +1,72 @@
+<div class="semaforo">
+   <div id="verde" class="luz"></div>
+   <div id="amarelo" class="luz"></div>
+   <div id="vermelho" class="luz"></div>
+</div>
+
+<style>
+
+:root {
+   --verde: #96C432;
+   --amarelo: #FACF5A;
+   --vermelho: #BF4733;
+}
+
+body {
+   display: flex;
+   margin: 0;
+   height: 100vh;
+}
+
+.semaforo {
+   display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+
+   margin: auto;
+   padding: 20px 0;
+   min-height: 80vh;
+   width: 13rem;
+   border-radius: 8px;
+   background-color: #16161D;
+}
+
+.luz {
+   width: 125px;
+   height: 125px;
+   border-radius: 50%;
+   background-color: #3C3C48;
+}
+
+.verde    { background-color: var(--verde); }
+.amarelo  { background-color: var(--amarelo); }
+.vermelho { background-color: var(--vermelho); }
+
+</style>
+
+<script>
+
+const removerClasse = (el, classe) => el.classList.remove(classe); 
+const adicionarClasse = (el, classe) => el.classList.add(classe); 
+   
+const mudarSemaforo = (atual, anterior) => {   
+   const semaforoAtual = document.querySelector(`#${atual}`);
+   const semaforoAnterior = document.querySelector(`#${anterior}`)
+
+   removerClasse(semaforoAnterior, anterior);
+   adicionarClasse(semaforoAtual, atual);
+}
+
+const init = () => {
+   setTimeout(() => mudarSemaforo('verde', 'vermelho'), 2000);
+   setTimeout(() => mudarSemaforo('amarelo', 'verde'), 4000);
+   setTimeout(() => mudarSemaforo('vermelho', 'amarelo'), 6000);
+
+  setTimeout(() => init(), 7000);
+}
+
+init();
+
+
+</script>
